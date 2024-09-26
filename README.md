@@ -12,6 +12,15 @@ This project is designed to work with results from a vulnerability scan tool, su
 
 ![Image1.png](Image1.png)
 
+![Image2.png](Image2.png)
+
+![Image3.png](Image3.png)
+
+![Image4.png](Image4.png)
+
+![Image5.png](Image5.png)
+
+
 The scan output shows a list of vulnerabilities with details like:
 - **Severity Level**: Critical, High, Medium, Low, Info
 - **CVSS Score**: A score that quantifies the severity of the vulnerability.
