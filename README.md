@@ -8,14 +8,15 @@ This project automates the creation of a vulnerability assessment report from a 
 
 ## Use Case: Automating Vulnerability Reporting
 
-The script processes the results from a vulnerability scan tool, similar to the scan result shown below:
-
+The script processes the results from a vulnerability scan tool "Nessus", similar to the scan result shown below:
 ![Scan Overview](Image1.png)
 
 ## Overview of the Process for Generating a Report
 
 1. **Vulnerability Scanning**:
    - I conducted a vulnerability scan on a machine that contained several vulnerabilities.
+
+![Scan Overview](Image1.png)
 
 2. **Exporting Results**:
    - After the scan, the results were exported as an **Excel sheet** containing details such as severity levels (Critical, High, Medium, Low), CVSS scores, affected hosts, and other relevant information.
