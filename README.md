@@ -32,10 +32,12 @@ This project is designed to work with results from a vulnerability scan tool, su
 3. **Running the Python Script**:
    - Next, I used the Python script designed to generate a structured report. I provided the **Excel sheet** as input to the script. 
    - The script processed the data, analyzed the vulnerabilities, and then created a Word document.
-![image3.png](image3.png)
 ```
 python nessus.py "Vulnberable system_cu39nf.csv" 
 ```
+
+![image3.png](image3.png)
+
 4. **Generating the Word Report**:
    - The resulting **Word file** included:
      1. **A pie chart** that visualized the distribution of vulnerabilities by severity levels: Critical, High, Medium, and Low.
