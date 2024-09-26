@@ -27,3 +27,4 @@ To install the required libraries, you can use `pip` by running the following co
 
 ```bash
 pip install python-docx matplotlib
+
