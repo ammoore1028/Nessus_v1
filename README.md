@@ -1,30 +1,44 @@
-# Vulnerability Report Generator Script
+# Vulnerability Assessment Report Automation
 
-This Python script generates a vulnerability assessment report based on a CSV file input. It creates a Word document that includes a pie chart of the vulnerabilities and tables detailing each vulnerability. Each table starts on a new page, and the pie chart is placed on the first page of the document.
+This project automates the creation of a vulnerability assessment report from a CSV file of vulnerability data. It converts scan results into a well-formatted Word document that includes:
+
+- A **pie chart** showing the distribution of vulnerabilities based on severity levels (Critical, High, Medium, Low, Info).
+- **Tables** for each vulnerability, providing details such as risk level, affected hosts, CVE references, and remediation suggestions.
+- Each table is displayed on a **separate page** for cleaner formatting.
+
+## Use Case: Automating the Vulnerability Report
+
+This project is designed to work with results from a vulnerability scan tool, such as the one shown in the image below:
+
+![Image1.png](Image1.png)
+
+The scan output shows a list of vulnerabilities with details like:
+- **Severity Level**: Critical, High, Medium, Low, Info
+- **CVSS Score**: A score that quantifies the severity of the vulnerability.
+- **Vulnerability Name**: The name or type of the vulnerability.
+- **Family**: The category or family the vulnerability belongs to.
+- **Affected Hosts**: The hosts affected by this vulnerability.
+- **Count**: The number of instances detected.
+
+## How It Works
+
+This script reads a CSV file that contains vulnerability data from the scan results. It generates a Word document with:
+1. A **pie chart** that visualizes the distribution of vulnerabilities by risk level.
+2. A detailed **table for each vulnerability**, including the risk level, affected hosts, CVEs, and remediation suggestions. Each table is placed on a separate page for easier reading and review.
 
 ## Features
 
-- **Pie Chart Generation**: The script creates a pie chart to visualize the distribution of vulnerabilities by risk level (Critical, High, Medium, Low).
-- **Word Document Creation**: It generates a Word document using `python-docx` that includes a detailed table for each vulnerability.
-- **Color-coded Risk Levels**: The risk levels are color-coded (Critical = Burgundy, High = Red, Medium = Orange, Low = Dark Green).
-- **Page Breaks**: Each vulnerability is displayed in a separate table on a new page in the document, ensuring clean and organized formatting.
-- **Supports CSV Input**: The script processes a CSV file with vulnerability details, making it adaptable to various vulnerability scanning tools' output.
+- **Automated report generation**: Converts CSV data into a structured Word report.
+- **Pie chart for visual insights**: Quickly understand the severity distribution.
+- **Color-coded risk levels**: Each vulnerability's risk level is color-coded for clarity.
+- **Supports multiple hosts**: Lists all affected hosts for each vulnerability.
+- **Page breaks for each vulnerability**: Ensures that each vulnerability is presented clearly.
 
-## Libraries Required
+## Installation and Setup
 
-To run this script, you'll need to install the following Python libraries:
+1. **Install Required Python Libraries**
 
-- `csv`: To parse the CSV file containing the vulnerability data (built-in).
-- `python-docx`: To create and format the Word document.
-- `matplotlib`: To generate and save the pie chart for vulnerabilities.
-- `argparse`: To handle command-line arguments for CSV file input (built-in).
-- `collections`: To use `defaultdict` for grouping vulnerabilities (built-in).
-- `os`: To handle file operations (built-in).
+   To use the script, you'll need to install the following libraries:
 
-### Installing the Required Libraries
-
-To install the required libraries, you can use `pip` by running the following command:
-
-```bash
-pip install python-docx matplotlib
-
+   ```bash
+   pip install python-docx matplotlib
