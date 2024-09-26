@@ -29,6 +29,7 @@ The script processes the results from a vulnerability scan tool "Nessus", simila
    ```bash
    python nessus.py "<Name-File.csv>"
    python nessus.py "Vulnberable system_cu39nf.csv"
+ ![image3.png](image3.png)
 
 4. **Generating the Word Report**:
    - The resulting **Word file** included:
