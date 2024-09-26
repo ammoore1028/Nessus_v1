@@ -33,6 +33,7 @@ This project is designed to work with results from a vulnerability scan tool, su
    - Next, I used the Python script designed to generate a structured report. I provided the **Excel sheet** as input to the script. 
    - The script processed the data, analyzed the vulnerabilities, and then created a Word document.
 ```
+python nessus.py "<Name-File.csv>"
 python nessus.py "Vulnberable system_cu39nf.csv" 
 ```
 
