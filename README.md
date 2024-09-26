@@ -12,13 +12,13 @@ This project is designed to work with results from a vulnerability scan tool, su
 
 ![Image1.png](Image1.png)
 
-![image2.png](Image2.png)
+![image2.png](image2.png)
 
-![image3.png](Image3.png)
+![image3.png](image3.png)
 
-![image4.png](Image4.png)
+![image4.png](image4.png)
 
-![image5.png](Image5.png)
+![image5.png](image5.png)
 
 
 The scan output shows a list of vulnerabilities with details like:
