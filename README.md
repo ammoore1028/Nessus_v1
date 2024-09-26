@@ -23,7 +23,7 @@ This project is designed to work with results from a vulnerability scan tool, su
 # Overview of the Process for Generating a Vulnerability Report
 
 1. **Vulnerability Scanning**:
-   - Initially, I performed a vulnerability scan on a machine that contained various vulnerabilities. This was done as a test to see how vulnerabilities were identified and categorized.
+   - Initially, I performed a vulnerability scan on a machine that contained various vulnerabilities.
 ![Image1.png](Image1.png)
 2. **Exporting Results**:
    - After the scan was completed, I exported the results as an **Excel sheet**. The file contained all the detected vulnerabilities, including details like severity (Critical, High, Medium, Low), CVSS scores, affected hosts, and other related information.
