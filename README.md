@@ -1,4 +1,4 @@
-# Vulnerability Assessment Report Automation
+# Vulnerability Assessment Report PDF Automation
 
 This project automates the creation of a vulnerability assessment report from a CSV file containing vulnerability data. It transforms scan results into a well-structured Word document, featuring:
 
