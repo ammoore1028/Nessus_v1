@@ -36,7 +36,7 @@ The script processes the results from a vulnerability scan tool "Nessus", simila
      1. A **pie chart** that visualized the distribution of vulnerabilities by severity levels: Critical, High, Medium, and Low.
      2. **Well-organized tables** for each vulnerability. These tables were sorted by severity, starting from **Critical** down to **Low**, making it easy to prioritize the most urgent vulnerabilities.
 
-   ![image4.png](image7.png)
+   ![image4.png](Image7.png)
    ![image5.png](image4.png)
 
 6. **Presentation and Organization**:
