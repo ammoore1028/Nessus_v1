@@ -35,16 +35,17 @@ The script processes the results from a vulnerability scan tool "Nessus", simila
    - The resulting **Word file** included:
      1. A **pie chart** that visualized the distribution of vulnerabilities by severity levels: Critical, High, Medium, and Low.
      2. **Well-organized tables** for each vulnerability. These tables were sorted by severity, starting from **Critical** down to **Low**, making it easy to prioritize the most urgent vulnerabilities.
+
    ![image4.png](image7.png)
    ![image5.png](image4.png)
 
-5. **Presentation and Organization**:
+6. **Presentation and Organization**:
    - The Word report was neatly formatted, with each vulnerability placed in a separate table. This organization ensured that the details were clear and easy to read.
    - The vulnerabilities were presented in a structured manner, starting with the most critical ones, making it easier to assess the system's security and prioritize fixes.
 
    ![image6.png](image5.png)
 
-6. **Using the Report in a Corporate Template**:
+7. **Using the Report in a Corporate Template**:
    - The generated Word document was formatted in such a way that I could easily transfer it into my company's report **template**.
    - The vulnerabilities were listed clearly, with charts and tables that made the information visually appealing and easy to understand, making it ready for submission to internal customers or clients.
 
